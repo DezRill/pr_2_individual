@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/bg-image.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content {
+    color: white;
+    width: 60vw;
+    margin: auto;
+    padding: 20px 40px;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.6);
+}
+
+a {
+    color: white;
+}
+
+table td,
+table th {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.statistic-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.statistic-table .band-name {
+    width: 40%;
+}
+
+.statistic-table .song-year {
+    width: 15%;
+}
+
+.text-align-right {
+    text-align: right;
+}
